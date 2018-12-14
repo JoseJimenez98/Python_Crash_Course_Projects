@@ -17,7 +17,7 @@ def run_game():
     bg_color = (230, 230, 230)
 
     # Make a ship.
-    ship = Ships(screen)
+    ship = Ships(ai_settings, screen)
 
     # Start the main loop for the game.
     running = True
@@ -26,6 +26,7 @@ def run_game():
         
         # Watch for keyboard and mouse events.
         running = gf.check_events(ship)
+        ship.update()
         gf.update_screen(ai_settings, screen, ship)
 
         # Redraw the screen during each pass through the loop.
