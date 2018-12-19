@@ -1,8 +1,8 @@
 # <center>Python Crash Course Projects</center>
 
 
-<center>By: Jose Jimenez</center>
-<center>University of the Pacific</center>
+By: Jose Jimenez   
+University of the Pacific
 
 ## INTRODUCTION
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
