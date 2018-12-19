@@ -34,10 +34,8 @@ def run_game():
     while running:
         # Watch for keyboard and mouse events.
         running = gf.check_events(ai_settings, screen, ship, bullets)
-        ship.update()
-        bullets.update()
-        
-        # Update Screen
+        ship.update()  
+        gf.update_bullets(bullets)
         gf.update_screen(ai_settings, screen, ship, bullets)
 
     pygame.quit()
